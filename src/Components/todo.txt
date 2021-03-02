@@ -1,0 +1,2 @@
+1) Custom hook - dopočítání výšky při namountování komponenty
+2) Custom hook - zjištění window.location.pathname při namountování komponenty (podle toho zjišťuju, která komponenta je aktivní a můžu vybarvovat položky v navigaci)

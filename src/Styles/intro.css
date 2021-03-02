@@ -1,0 +1,95 @@
+.intro {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-position: 50% 10%;
+  background-size: cover;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  z-index: 999;
+}
+
+.intro .intro-box {
+  padding-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+  .intro .intro-box {
+    padding-top: 150%;
+  }
+}
+
+.intro .intro-box h1 {
+  font-size: 3em;
+  color: #FBC531;
+}
+
+.intro .intro-box h1 .intro-box-edited {
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 500;
+}
+
+.intro .intro-box .intro-btn {
+  padding: 12px 74px;
+  background: transparent;
+  border: 3px solid #FBC531;
+  color: #FBC531;
+  margin-top: 125px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.intro .intro-box .intro-btn:hover {
+  -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.18), 0 9px 18px rgba(0, 0, 0, 0.28);
+          box-shadow: 0 9px 18px rgba(0, 0, 0, 0.18), 0 9px 18px rgba(0, 0, 0, 0.28);
+  color: #fff;
+  background: #FBC531;
+}
+
+.intro .social-media {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.intro .social-media a {
+  font-size: 1.7em;
+  color: #fff;
+  padding: 8px;
+  -webkit-transition: .25s all ease-in-out;
+  transition: .25s all ease-in-out;
+}
+
+.intro .social-media .fa-twitter:hover {
+  color: #1dcaff;
+}
+
+.intro .social-media .fa-facebook-square:hover {
+  color: #3B5998;
+}
+
+.intro .social-media .fa-codepen:hover {
+  color: #2F3640;
+}
+
+.intro .social-media .fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.intro .social-media .fa-instagram:hover {
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=intro.css.map */

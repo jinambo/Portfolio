@@ -1,0 +1,96 @@
+.container .page p {
+  font-size: 1.25em;
+}
+
+.container .about, .container .portfolio, .container .experience, .container .contact {
+  overflow: hidden;
+  padding: 5px 25px;
+  padding-bottom: 20px;
+}
+
+.container .about h3, .container .portfolio h3, .container .experience h3, .container .contact h3 {
+  font-size: 2.15em;
+}
+
+@media (max-width: 660px) {
+  .container .about h3, .container .portfolio h3, .container .experience h3, .container .contact h3 {
+    font-size: 1.55em;
+  }
+  .container .contact {
+    position: static !important;
+  }
+}
+
+.container .about .section, .container .portfolio .section, .container .experience .section, .container .contact .section {
+  margin-top: 33px;
+}
+
+.container .about .section .section-title, .container .portfolio .section .section-title, .container .experience .section .section-title, .container .contact .section .section-title {
+  font-weight: 300;
+  font-size: .9em;
+  padding: 6px 12px;
+  display: inline;
+  background: #FBC531;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container .about .section .achievement, .container .portfolio .section .achievement, .container .experience .section .achievement, .container .contact .section .achievement {
+  margin-top: 16.5px;
+  border-left: 2px solid #FBC531;
+  padding-left: 9.5px;
+}
+
+.container .about .section .achievement p:nth-child(3) {
+  margin-top: 5px;
+}
+
+.container .about .section .achievement b, .container .portfolio .section .achievement b, .container .experience .section .achievement b, .container .contact .section .achievement b {
+  font-weight: 600;
+  font-size: 1.175em;
+}
+
+.container .about .section .achievement p, .container .portfolio .section .achievement p, .container .experience .section .achievement p, .container .contact .section .achievement p {
+  font-size: 1.05em;
+}
+
+.container .about .section .achievement p:nth-child(1), .container .portfolio .section .achievement p:nth-child(1), .container .experience .section .achievement p:nth-child(1), .container .contact .section .achievement p:nth-child(1) {
+  font-weight: 500;
+}
+
+.container .contact {
+  position: relative;
+}
+
+.container .contact .contact-table {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .container .contact .contact-table {
+    margin-top: 155px;
+  }
+  .container .contact .contact-table h1 {
+    font-size: 1.25em;
+  }
+}
+
+.container .experience b {
+  font-size: 1.4em;
+}
+
+.container .experience li {
+  font-size: 1.25em;
+}
+
+.hiden {
+  display: none;
+}
+/*# sourceMappingURL=about.css.map */
